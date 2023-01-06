@@ -8,7 +8,6 @@ import { TurnoContextProvider } from "./context/TurnoProvider";
 
 import Navbar from "./components/Navbar";
 import Servicios from "./pages/Servicios";
-import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -25,7 +24,6 @@ function App() {
             <Route path="*" element={<NotFound />} />
           </Routes>
         </TurnoContextProvider>
-        <Footer />
         </div>
     </div>
   );
