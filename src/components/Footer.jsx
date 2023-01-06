@@ -1,7 +1,7 @@
 import React from 'react'
 
 function Footer() {
-  return (
+    return (
     <div style={{ position: 'absolute', bottom: 0, width: '80%' }}
     >
     <footer>
